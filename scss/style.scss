@@ -1,0 +1,31 @@
+@import "compass/reset";
+
+body{
+	width: 100%;
+}
+
+.container
+{
+	width: 70%;
+	margin: 50px auto;
+	background-color: #ccc;
+}
+
+li{
+	float: left;
+	margin-right: 1px;
+}
+
+a{
+	text-decoration: none;
+
+	background-color: #ccc;
+	color: white;
+
+	padding: 10px;
+
+	&:hover{
+		color: black;			
+		background-color: yellow;
+	}
+}
